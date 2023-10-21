@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rlir_therapy")(type "KiCad")(uri "${KIPRJMOD}/rlir_therapy.kicad_sym")(options "")(descr ""))
+)

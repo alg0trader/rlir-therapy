@@ -1,5 +1,37 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7d9e2760-1ec1-44c2-9be6-e1bd2e738221)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "Red Light Infrared Therapy Module")
+    (date "2023-10-01")
+    (rev "A")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 127 38.1) (size 38.1 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 459f327d-1428-443c-9649-d4cdfcf1ccc7)
+    (property "Sheetname" "RL Driver" (at 127 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "led_driverkicad_sch.kicad_sch" (at 127 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "rlir-therapy"
+        (path "/7d9e2760-1ec1-44c2-9be6-e1bd2e738221" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
